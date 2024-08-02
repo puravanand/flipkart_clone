@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" placeholder="enter the number" id="first">
+    <select id="chooseoperator">
+<option value="+">+</option>
+<option value="-">-</option>
+<option value="*">X</option>
+<option value="/">/</option>
+    </select>
+  <input type="number" placeholder="enter the number" id="second">
+  <button onclick="called()"> calculate</button>
+  <br>
+ <input type="text" placeholder="see result" id="total" readonly="" step="any">
+</body>
+
+<script>
+    function called(){
+        var first = document.getElementById("first").value;
+        var second = document.getElementById("second").value;
+       var operand = document.getElementById("chooseoperator").value;
+       
+       if(operand == "+"){
+        var result = parseInt(first) + parseInt(second);
+       }
+       else if(operand == "-"){
+        var result = parseInt(first) - parseInt(second);
+       }
+       else if(operand == "*"){
+        var result = parseInt(first) * parseInt(second);
+       }
+       else if(operand == "/"){
+        var result = parseInt(first) / parseInt(second);
+    
+       }
+       else{
+        alert("enter valid input")
+       }
+       document.getElementById("total").value = result;
+       
+       
+        
+    }
+</script>
+</html>

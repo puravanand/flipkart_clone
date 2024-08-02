@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .imgslider{
+            width: 1490px;
+            height:500px;
+            background-image:url("baneer2.jpg");
+            background-size: 100% 100%;
+            animation:changeImage 45s linear infinite;
+        }
+        @keyframes changeImage{
+            0%{
+                background-image:url("baneer2.jpg");
+            }
+            25%{
+                background-image:url("banner.jpg");
+            }
+            50%{
+                background-image:url("electro.jpg");
+            }
+            75%{
+                background-image:url("furnitures1.jpg");
+            }
+            100%{
+                background-image:url("furnitures2.jpg");
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="imgslider"></div>    
+</body>
+</html>

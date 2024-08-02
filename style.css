@@ -1,0 +1,701 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #2874F0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 30px;
+  top: 0;
+  position: sticky;
+width: 1450px;
+}
+
+
+.span {
+  color: yellow;
+}
+
+.ex {
+  color: white;
+  position: relative;
+  top: -5px;
+  margin-left: 30px;
+}
+
+.search {
+  margin-left: 10px;
+  background-color: white;
+  padding: 7px;
+  border: 1px solid black;
+  
+}
+
+.search input {
+  border: none;
+  outline: none;
+  width: 400px;
+}
+
+.btn {
+  margin: 0px 0px 0px 10px;
+  padding: 6.5px 30px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+a {
+  text-decoration: none;
+  padding: 0px 40px;
+  color: white;
+  font-size: 20px;
+}
+
+.flipnav {
+  margin: 20px 0px 20px 0px;
+}
+
+a i {
+  font-size: 10px;
+}
+
+#icon {
+  font-size: 20px;
+}
+
+.menu {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.menu1 {
+  font-size: 20px;
+  padding: 0px 50px 0px 0px;
+  padding-left: 0.5px;
+}
+
+body {
+  background-color: #F1F3F6;
+}
+
+.p {
+  margin-left: 50px;
+}
+
+.im2 {
+  transition: transform 2s;
+}
+
+.im2:hover {
+  transform: scale(1.2);
+ 
+}
+
+.con {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 200px;
+}
+
+.red {
+  margin: 15px 0px;
+  padding: 0px 50px 0px 0px;
+  padding-left: 0.5px;
+}
+
+#red {
+  font-size: 30px;
+  margin: 70px 0px 0px 0px;
+  color: green;
+}
+
+#red {
+  transition: transform 2s;
+  font-size: 45px;
+}
+
+#red:hover {
+  transform: scale(0.9);
+}
+
+.con2 {
+  background-color: white;
+  width: 100%;
+  height: 24px;
+  display: flex;
+
+
+}
+
+.btm {
+  margin-top: -3px;
+  padding: 8px 30px;
+  background-color: #2874F0;
+  border-radius: 4px;
+}
+
+.menu2 {
+  font-size: 20px;
+  padding: 0px 50px 0px 0px;
+
+}
+
+.con3 {
+  background-color: white;
+  display: flex;
+}
+
+.menu3 {
+  padding: 0px 50px 0px 0px;
+  font-size: 20px;
+  color: orange;
+}
+
+.dropdown {
+  position: relative;
+  top: 0;
+}
+
+.drop {
+  position: absolute;
+  display: none;
+  border: 1px solid black;
+  color: blue;
+  width: 90px;
+  padding: 4px;
+}
+
+.dropdown:hover .drop {
+  display: block;
+}
+
+.con5 {
+  display: flex;
+  background-color: white;
+
+}
+
+.red3 {
+  padding: 0px 30px;
+  margin: 20px 0px 0px 0px;
+}
+
+.container {
+  border: 0px solid red;
+  width: 100%;
+  height: 390px;
+  margin-top: 25px;
+  background-color: white;
+  display: flex;
+  margin: 0px 0px 8px 0px;
+}
+
+.image1 {
+  border: 0px solid black;
+  width: 240px;
+  height: 220px;
+  margin: 20px 0px 0px 10px;
+  background-color: white;
+
+}
+
+.content {
+  border: 0px solid black;
+  width: 200px;
+  height: 100px;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  margin-left: 30px;
+  background-color: white;
+}
+
+.menu5 {
+  color: orange;
+  margin-left: 7px;
+
+}
+
+.button5 {
+  margin-top: 2px;
+  padding: 8px 30px;
+  background-color: #0a5fe8;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button5{
+  margin-left: -55px;
+}
+
+.button5:hover {
+  background-color: aquamarine;
+}
+.button6{
+  margin-top: 2px;
+  padding: 8px 30px;
+  background-color: #0a5fe8;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#id {
+  margin-top: 16px;
+}
+
+.kitchen-aapliances {
+  font-weight: bolder;
+  font-size: 30px;
+  margin: 4px 0px 8px 0px;
+}
+
+.complete {
+  border: 0px solid green;
+  height: 350px;
+  width: 350px;
+  margin: 15px;
+}
+
+.complete:hover {
+
+  box-shadow: 3px 9px 9px 9px green;
+  background-color: beige;
+
+}
+
+.complete2 {
+  height: 350px;
+  width: 270px;
+  margin: 15px;
+  border: 0px solid red;
+}
+
+.complete2:hover {
+  box-shadow: 3px 9px 9px 9px blue;
+  background-color:antiquewhite;
+}
+
+.home {
+  font-size: 20px;
+  width: 100%;
+  background-color: bisque;
+}
+
+.footer {
+  width: 100%;
+  height: 340px;
+  background-color: rgb(22, 21, 21);
+  display: flex;
+  border: 0px solid red;
+}
+
+.five {
+  color: beige;
+  width: 16.6%;
+  height: 340px;
+  border: 0px solid red;
+  margin-left: 45px;
+}
+li{
+  padding: 10px;
+  list-style: none;
+  
+}
+li:hover{
+ text-decoration:underline;
+ color: green;
+list-style:square;
+cursor: pointer;
+ 
+}
+.imgslider{
+  width: 100%;
+  height:400px;
+  background-image:url("https://cdn.pixabay.com/photo/2017/01/07/17/48/interior-1961070__340.jpg");
+  background-size: 100% 100%;
+  animation:changeImage 10s linear infinite;
+  border: 1px solid black;
+  box-shadow: 0px 0px 7px 7px white;
+}
+@keyframes changeImage{
+  0%{ background-image:url("https://cdn.pixabay.com/photo/2017/05/30/23/33/fridge-2358608__340.jpg");
+      
+      background-image:url("https://cdn.pixabay.com/photo/2017/01/07/17/48/interior-1961070__340.jpg");
+  }
+  50%{
+      background-image:url("https://cdn.pixabay.com/photo/2017/03/28/12/17/chairs-2181994__340.jpg");
+  }
+  75%{
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKxIohxUEJSmAUDeCII34lqt1yuECL_lBofpMl-EBKh1NNTAXp8quo7oRaAsItJGhLC5E&usqp=CAU");
+  }
+  100%{
+      background-image:url("furnitures2.jpg");
+  }
+}
+
+.five h2{
+  font-size: 23px;
+  margin-left: 45px;
+}
+#help{
+  margin-left: 25px;
+}
+
+.help{
+  color: rgb(216, 153, 107);
+}
+hr{
+  color: white;
+ 
+}
+.cards{
+  color: white;
+  font-weight: bolder;
+  font-size: 28px;
+ 
+  background-color: rgb(22, 21, 21);
+}
+h3{
+  margin-left: 500px;
+}
+.con4 {
+  background-color: white;
+  display: flex;
+}
+
+.menu4 {
+  font-size: 20px;
+
+  padding: 0px 50px 0px 0px;
+}
+
+.btp {
+
+  padding: 6px 20px;
+  background-color: blue;
+  color: black;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btp:hover {
+  color: orangered;
+  background-color: chartreuse;
+}
+
+.p {
+  background-color: white;
+  width: 100%;
+  display: flex;
+
+}
+
+.pi {
+  padding: 0px 50px;
+  font-size: 18px;
+
+}
+.btn{
+  background-color: beige;
+}
+.btn:hover{
+background-color: darkgreen;
+color: white;
+font-weight: bolder;
+font-size: 15px;
+}
+.search{
+  position: relative;
+  top: 0;
+}
+.searchcontent{
+  position: absolute;
+  display: none;
+  padding: 25px;
+  margin: 8px;
+  border: 4px solid rgb(193, 189, 189);
+  width: 378px;
+  margin-left: -8px;
+  height: 380px;
+  background-color: aquamarine;
+}
+.search:hover .searchcontent{
+  display: block;
+}
+
+
+.searchcontent1{
+  padding-bottom: 4px;
+  border: 0px solid green;
+  font-size: 21px;
+  font-weight: 600;
+  color:black;
+  margin-left: -8px;
+  margin-bottom: 25px;
+}
+.recent{
+  margin-left: 200px;
+  
+  font-size: 18px;
+}
+.recent1{
+  margin-left: 155px; 
+  font-size: 18px;
+}
+.recent2{
+  margin-left: 110px; 
+  font-size: 18px;
+}
+.recent6{
+  margin-left: 180px; 
+  font-size: 18px;
+}
+.recent5{
+  margin-left: 105px; 
+  font-size: 18px;
+}
+.recent3{
+  margin-left: 165px; 
+  font-size: 18px;
+}
+.recent4{
+  margin-left: 90px; 
+  font-size: 18px;
+}
+
+.searchcontent a{
+  padding-bottom: 4px;
+  border: 0px solid green;
+  font-size: 21px;
+  font-weight: 600;
+  color:black;
+  margin-left: -8px;
+  margin-bottom: 25px;
+}
+.searchcontent1 a:hover{
+  color:blue;
+}
+.searchcontent1:hover{
+  background-color: rgba(251, 249, 249, 0.377);
+  color: blue;
+  cursor:pointer;
+  font-size: 22px;
+  box-shadow: 0px 0px 7px 7px silver;
+
+}
+.drop{
+  background-color: beige;
+  color: green;
+  cursor:pointer;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 7px 7px silver;
+  
+}
+.drop p{
+margin-bottom: 20px;
+
+}
+.drop1 p:hover{
+  box-shadow: 0px 0px 7px 7px silver;
+  font-size: 22px;
+
+}
+.drop1{
+  position: absolute;
+  display: none;
+  background-color: rgb(116, 112, 105);
+  margin-bottom: 6px;
+  color: orange;
+  border: 1px solid black;
+  box-shadow: 0px 0px 7px 7px rgb(118, 59, 59);
+}
+.drop1 p{
+  margin-bottom: 20px;
+}
+  
+.dropdown:hover .drop1{
+  display: block;
+}
+.drop p:hover{
+  box-shadow: 0px 0px 7px 7px silver;
+  font-size: 22px;
+
+}
+.drop2{
+  position: absolute;
+  display: none;
+  background-color: rgb(116, 112, 105);
+  margin-bottom: 6px;
+  color: cyan;
+  border: 1px solid black;
+  box-shadow: 0px 0px 7px 7px rgb(118, 59, 59);
+}
+.dropdown:hover .drop2{
+  display: block;
+}
+.drop2 p{
+  margin-bottom: 20px;
+}
+.drop2 p:hover{
+  box-shadow: 0px 0px 7px 7px silver;
+  font-size: 22px;
+
+}
+.drop3{
+  position: absolute;
+  display: none;
+  background-color: rgb(116, 112, 105);
+  margin-bottom: 6px;
+  color: black;
+  border: 1px solid black;
+  box-shadow: 0px 0px 7px 7px rgb(240, 221, 9);
+}
+.dropdown:hover .drop3{
+  display: block;
+}
+.drop3 p{
+  margin-bottom: 20px;
+}
+ .drop3 p:hover{
+  box-shadow: 0px 0px 7px 7px silver;
+  font-size: 22px;
+
+}
+.drop4{
+  position: absolute;
+  display: none;
+  background-color: rgb(116, 112, 105);
+  margin-bottom: 6px;
+  color: beige;
+  border: 1px solid black;
+  box-shadow: 0px 0px 7px 7px rgb(186, 21, 167);
+}
+.dropdown:hover .drop4{
+  display: block;
+}
+.drop4 p{
+  margin-bottom: 20px;
+}
+ .drop4 p:hover{
+  box-shadow: 0px 0px 7px 7px silver;
+  font-size: 22px;
+
+}
+.drop5{
+  position: absolute;
+  display: none;
+  background-color:green;
+  margin-bottom: 6px;
+  color: beige;
+  border: 1px solid black;
+  box-shadow: 0px 0px 7px 7px rgb(240, 221, 9);
+}
+.dropdown:hover .drop5{
+  display: block;
+}
+.drop5 p{
+  margin-bottom: 20px;
+}
+ .drop5 p:hover{
+  box-shadow: 0px 0px 7px 7px silver;
+  font-size: 22px;
+
+}
+.drop6{
+  position: absolute;
+  display: none;
+  background-color:rgb(72, 69, 69);
+  margin-bottom: 6px;
+  color:skyblue;
+  border: 1px solid black;
+  box-shadow: 0px 0px 7px 7px rgb(240, 221, 9);
+}
+.dropdown:hover .drop6{
+  display: block;
+}
+.drop6 p{
+  margin-bottom: 20px;
+}
+ .drop6 p:hover{
+  box-shadow: 0px 0px 7px 7px rgb(174, 36, 36);
+  font-size: 22px;
+
+}
+.drop7{
+  position: absolute;
+  display: none;
+  background-color:rgb(72, 69, 69);
+  margin-bottom: 6px;
+  color:skyblue;
+  border: 1px solid black;
+  box-shadow: 0px 0px 7px 7px rgb(240, 221, 9);
+}
+.dropdown:hover .drop7{
+  display: block;
+}
+.drop7 p{
+  margin-bottom: 20px;
+}
+ .drop7 p:hover{
+  box-shadow: 0px 0px 7px 7px rgb(174, 36, 36);
+  font-size: 22px;
+
+}
+.become{
+outline: none;
+border: none;
+background: none;
+font-size: 19px;
+color: white;
+}
+.become:hover{
+  color: royalblue;
+  background-color:beige;
+  box-shadow: 0px 0px 5px 7px bisque;
+  font-size: 20px;
+  cursor: pointer;
+}
+.content9{
+  border: 5px dashed red;
+
+  display: none;
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  color: crimson;
+  box-shadow: blue;
+  background-color: beige;
+
+}
+.content9 p{
+  padding: 15px;
+  color: green;
+}
+.content9 p:hover{
+  box-shadow: 0px 0px 5px 5px silver;
+  background-color: darkgray;
+}
+.dropdown:hover .content9{
+  display: block;
+  cursor: pointer;
+}
+.cards{
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background-color: rgb(22, 21, 21);
+  
+  border: 0px solid red;
+ 
+}
+.SIGNATURE{
+  margin-right: 555PX;
+}

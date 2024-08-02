@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="enter the name" onkeyup="search()" id="working">
+    <div class="searchcontent" id="list">
+        <p> <a href="https://www.flipkart.com/search?q=laptop&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">  Laptop</a><span class="recent"><i class="fa-solid fa-arrow-rotate-left"></i></span></p>
+        <p><a href="https://www.flipkart.com/search?q=refrigirator&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">Refrigirator</a><span class="recent1"><i class="fa-solid fa-arrow-rotate-left"></i></span></p>
+        <p><a href="https://www.flipkart.com/search?q=iphone&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">I phone</a><span class="recent"><i class="fa-solid fa-arrow-rotate-left"></i></span></p>
+        <p><a href="https://www.flipkart.com/washing-machines/pr?sid=abm,8qx">Washing Machine</a><span class="recent2"><i class="fa-solid fa-arrow-rotate-left"></i></span></p>
+        <p><a href="https://www.flipkart.com/search?q=school+bag&sid=d69%2Cthr%2Cwsp&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_5_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_5_na_na_na&as-pos=1&as-type=RECENT&suggestionId=school+bag%7CSchool+Bags&requestId=e1ea79a1-f597-445c-8fe0-01c056716dff&as-backfill=on">school Bags</a><span class="recent3"><i class="fa-solid fa-arrow-rotate-left"></i></span></p>
+        <p><a href="https://www.flipkart.com/search?q=scentific%20calculator&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">Scientific Calculator</a><span class="recent4"><i class="fa-solid fa-arrow-rotate-left"></i></span></p>
+        <p><a href="https://www.flipkart.com/search?q=wireless+keyboard+and+mouse&sid=6bo%2Cai3%2C3oe&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_14_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_14_na_na_na&as-pos=1&as-type=RECENT&suggestionId=wireless+keyboard+and+mouse%7CKeyboards&requestId=a50b9e55-46c6-44d1-9429-0e7ea049eac4&as-backfill=on">Wireless keyboard</a><span class="recent5"><i class="fa-solid fa-arrow-rotate-left"></i></span></p>
+        <p><a href="https://www.flipkart.com/search?q=mac%20book&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">Mac book</a><span class="recent6"><i class="fa-solid fa-arrow-rotate-left"></i></span></p>
+    </div>
+    <script>
+        function search(){
+            let filter = document.getElementById("working").value.toUpperCase();
+            let div = document.getElementById("list");
+            let p = div.getElementsByTagName("p");
+            for (let i = 0; i<li.length; i++){
+                let a =p[i].getElementsByTagName('a')[0];
+                let textvalue = a.textContent || a.innerHTML;
+                if(textvalue.toUpperCase().indexOf(filter) > -1){
+                    p[i].style.display= '';
+
+                }else{
+                    p[i].style.display= 'none';
+                
+
+            }
+        }
+    </script>
+</body>
+</html>

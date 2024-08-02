@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a{
+            list-style: none;
+            text-decoration: none;
+            padding: 8px;
+        }
+        ul li{
+            list-style: none;
+            text-decoration: none;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="enter the name" onkeyup="search()" id="working">
+    <ul id="searching">
+        <li><a href="#">purav</a></li>
+        <li><a href="#">vishal</a></li>
+        <li><a href="#">rahul</a></li>
+        <li><a href="#">dimpal</a></li>
+        <li><a href="#">ashu</a></li>
+        <li><a href="#">krish</a></li>
+        <li><a href="#">khushi</a></li>
+        <li><a href="#">grammer</a></li>
+       
+    </ul>
+    <script>
+        function search(){
+            let filter = document.getElementById("working").value.toUpperCase();
+            let ul = document.getElementById("searching");
+            let li =  ul.getElementsByTagName("li");
+            for (let i = 0; i<li.length; i++){
+                let a = li[i].getElementsByTagName('a')[0];
+                let textvalue = a.textContent || a.innerHTML;
+                if(textvalue.toUpperCase().indexOf(filter) > -1){
+                    li[i].style.display= '';
+
+                }else{
+                    li[i].style.display= 'none';
+                }
+
+            }
+        }
+        
+
+    </script>
+</body>
+</html>

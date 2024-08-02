@@ -1,0 +1,100 @@
+.open{
+    width: 100%;
+    border: 0px solid black;
+    height: 600px;
+    display: flex;
+    background-color: white;
+}
+.lenovaidealpad3{
+border: 0px solid red;
+ width: 40%;
+height: 600px;
+}
+.lenovadetails{
+    width: 60%;
+    height: 600px;
+    border: 0px solid red;
+}
+#red{
+    border: 0px solid red;
+    height: 300px;
+    width: 350px;
+    margin: 10px auto;
+    display: block;
+}
+#red img{
+    width: 400px;
+    height: 300px;
+}
+#red1 img{
+    width: 240px;
+    height: 350px;
+    
+}
+#red1{
+    border: 0px solid red;
+    height: 300px;
+    width: 350px;
+    margin: 10px auto;
+    margin-left: 185px;
+    display: block;
+}
+.laptop1button button{
+   
+    margin: 30px auto;
+    margin:50px 15px 0px 50px;
+    padding: 10px;
+    font-size: 21px;
+    background-color: orange;
+    border: 1px dashed black;
+    border-radius:  10px;
+}
+.laptop1button{
+    display: flex;
+}
+#addtocart{
+   width: 200px;
+}
+#buynow{
+    width: 200px;
+}
+
+.laptop1button button:hover{
+    border: 1px dashed black;
+    border-radius:  5px;
+    background-color: darkslategray;
+}
+.price{
+    margin-left: 12px;
+    font-size: 25px;
+    color: red;
+}
+.pricedetails{
+    font-size: 35px;
+    color: black;
+}
+.off{
+    font-size: 25px;
+    margin-left: 12px;
+    color: green;
+}
+.h2{
+   margin-top: 35px;
+}
+.information{
+    color: black;
+}
+
+ input{
+    outline: none;
+    background-color: #f1f3f6;
+    border: none;
+    box-shadow: 0px px;
+}
+.know{
+    margin-left: 22px;
+    color: blue;
+    font-size: 15px;
+    margin-left: 15px;
+}
+

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            color: #f1f3f6;
+            
+        }
+        .header{
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid greenyellow;
+            height: 85px;
+            box-shadow: 0px 0px 7px 9px green;
+            margin-top: 10px;
+        }
+        .logo{
+            height: 80px;
+            width: 80px;
+            border: 0px solid red;
+            border-radius: 55px;
+            margin-left: 45px;
+        }
+        img{
+            border: none;
+            border-radius: 55px;
+            margin-left: 45px;
+            margin-top: 4px;
+        }
+        .nav{
+            border: 0px solid red;
+            display: flex;
+            margin-top: 10px;
+            height: 45px;
+        }
+        a{
+            text-decoration: none;
+        margin: 10px;
+            padding-bottom: 15px;
+            color: black;
+            margin-top: 15px;
+            font-size: 20px;
+            border: 0PX SOLID BLACK;
+            height: 20PX;
+            
+        
+
+        }
+        a:hover{
+            box-shadow: 0px 0px 8px 8px beige;
+            background-color:silver;
+            font-size: 22px;
+           
+        }
+        span{
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        .search{
+            height: 45px;
+            border: 4px solid beige;
+            width: 500px;
+            margin: 150px auto;
+            display: block;
+            box-shadow: 0px 0px 8px 8px rgb(220, 220, 27);;
+    
+        }
+        input{
+            margin-left: 65px;
+            width: 70%;
+            height: 60%;
+            position: relative;
+            margin-top: 8px;
+            box-shadow: 0px 0px 4px 4px rgb(218, 218, 213);
+        }
+        i{
+            color: black;
+            position: absolute;
+            margin-top: 15px;
+            margin-left: -35px;
+        }
+        button{
+            margin-top: 20px;
+            width: 125px;
+            border: none;
+            outline: none;
+            padding: 15px;
+                    }
+        .searchbar{
+            height: 800px;
+            width: 100%;
+            border: 1px solid black;
+            margin-top: 30px;
+            background-image: url("im2.jpg");
+            opacity: 0.9;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="seller.jpg" alt="" width="80px" height="80px">
+        </div>
+        <div class="nav">
+           <a href="#"><span>Home</span></a>
+           <a href="#">Contact us</a>
+           <a href="#">Reviews</a>
+           <a href="#">Blogs</a>
+           <a href="#">Address</a>
+           <a href="#">Information</a>
+           <a href="#">Search</a>
+           <a href="#">Conditions</a>
+        </div>
+        <div class="buttons">
+<button>search</button>
+        </div>
+    </div>
+
+    <div class="searchbar">
+    <div class="search">
+<input type="text" placeholder="search brands & more"><span><i class="fa-solid fa-magnifying-glass"></i></span></span>
+    </div></div>
+</body>
+</html>

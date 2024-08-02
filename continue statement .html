@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //printing the value from 1 to 10
+        for( var i = 0; i<= 10; i++){
+            document.writeln(i+ "<br>");
+        }
+        // using continue statement 
+        // to skip the line of code in moving loop
+        //here we want to skip the"5" from 1 to 10
+        document.writeln( "<br>");
+        for( var i = 0; i <=10; i++){
+            if(i==5){
+                continue;
+            }
+            document.writeln(i+ "<br>");  
+        }
+
+        //printing even and odd no.
+        document.writeln("odd no. is") 
+        for( var i = 0; i <=10; i++){
+            if(i%2==0){
+                continue;
+            }
+          
+            document.writeln(i+ "<br>");  
+        }
+        var a = 10;
+        b =5;
+        c= 10;
+        s= (a+b+c)/2
+        document.writeln(s);
+        var formula = s*(s-a)*(s-b)*(s-c);
+        document.writeln(formula);
+        var squareroot = Math.sqrt(formula);
+        document.write(squareroot)
+       
+    </script>
+</body>
+</html>
